@@ -8,6 +8,7 @@
 
 - [Installation](#installation)
 - [How to start](#how-to-start)
+- [### How to using in api - express](#how-to-using-in-api)
     
 ## Installation
 
@@ -97,7 +98,7 @@ function two(){
 const queue = new QueueFunction(1, [two, one]);
 // queue will automatic execute when length results > 0
 ```
-#How to using in api - express
+### How to using in api - express
 ```bash
 const QueueFunction = require('queue-function-api');
 /**
