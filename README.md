@@ -8,7 +8,6 @@
 
 - [Installation](#installation)
 - [How to start](#how-to-start)
-- [Receive Messages](#example)
     
 ## Installation
 
