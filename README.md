@@ -97,3 +97,25 @@ function two(){
 const queue = new QueueFunction(1, [two, one]);
 // queue will automatic execute when length results > 0
 ```
+#How to using in api - express
+```bash
+const QueueFunction = require('queue-function-api');
+/**
+*
+* @param {number} _maxConcurrency
+* @param {array - function} results
+*/
+const app = express();
+app.request.q = new QueueFunction();
+
+// function in controller
+function getUser(req, res) => {
+    const functionQueue = async () => {
+        // handle something
+        // can be using return response at here
+        const data =  await userService.get(req.params.id);
+        return await res.send(data)
+    }
+    // req.q.push()
+}
+```
