@@ -80,3 +80,20 @@ queue.push(async function four() {
   console.log(5);
 });
 ```
+
+```bash
+    const QueueFunction = require('queue-function-api');
+    /**
+    *
+    * @param {number} _maxConcurrency
+    * @param {array - function} results
+    */
+    function one(){
+        console.log('1');
+    }
+    function two(){
+        console.log('2');
+    }
+    const queue = new QueueFunction(1, [two, one]);
+    // queue will automatic execute when length results > 0
+```
