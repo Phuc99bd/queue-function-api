@@ -12,7 +12,7 @@
     
 ## Installation
 
-Install the `bot-facebook` package in your node server app's local `node_modules` folder.
+Install the `queue-function-api` package in your node server app's local `node_modules` folder.
 
 ```bash
 npm i queue-function-api
