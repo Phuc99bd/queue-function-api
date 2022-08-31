@@ -98,7 +98,7 @@ function two(){
 const queue = new QueueFunction(1, [two, one]);
 // queue will automatic execute when length results > 0
 ```
-### How to using in api - express
+### How to using in api
 ```bash
 const QueueFunction = require('queue-function-api');
 /**
