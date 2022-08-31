@@ -117,6 +117,6 @@ function getUser(req, res) => {
         const data =  await userService.get(req.params.id);
         return await res.send(data)
     }
-    // req.q.push()
+    req.q.push(functionQueue)
 }
 ```
