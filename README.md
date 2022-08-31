@@ -31,10 +31,11 @@ const queue = new QueueFunction(1, []);
 queue.on('running', function (fn) {
     console.log(fn)
 });
-queue.on('exist', function (error) {
-    if(error){
-        console.log(error)
-    }
+queue.on('exist', function (fn) {
+     console.log(fn)
+});
+queue.on('error', function (error) {
+     console.log(error)
 });
 
 const delay = (ms) => new Promise((res) => setTimeout(res, ms));
