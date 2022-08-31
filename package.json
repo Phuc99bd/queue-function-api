@@ -1,0 +1,25 @@
+{
+  "name": "queue-function-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Phuc99bd/queue-function-api.git"
+  },
+  "keywords": [
+    "queue",
+    "express",
+    "express-queue",
+    "queue-api"
+  ],
+  "author": "PhucVo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Phuc99bd/queue-function-api/issues"
+  },
+  "homepage": "https://github.com/Phuc99bd/queue-function-api#readme"
+}
