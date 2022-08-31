@@ -107,7 +107,7 @@ const QueueFunction = require('queue-function-api');
 * @param {array - function} results
 */
 const app = express();
-app.request.q = new QueueFunction();
+app.request.q = new QueueFunction(1);
 
 // function in controller
 function getUser(req, res) => {
