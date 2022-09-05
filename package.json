@@ -14,7 +14,12 @@
     "queue",
     "express",
     "express-queue",
-    "queue-api"
+    "queue-api",
+    "async",
+    "concurrency",
+    "asynchronous",
+    "task",
+    "concurrent"
   ],
   "author": "PhucVo",
   "license": "ISC",
