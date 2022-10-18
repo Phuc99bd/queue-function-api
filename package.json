@@ -1,6 +1,6 @@
 {
   "name": "queue-function-api",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Queue function - Nodejs",
   "main": "dist/index.js",
   "scripts": {
